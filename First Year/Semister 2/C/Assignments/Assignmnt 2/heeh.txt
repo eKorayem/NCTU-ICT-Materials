@@ -1,0 +1,5 @@
+Value: 1.000000		Adress: 0061FF00
+Value: 3.000000		Adress: 0061FF04
+Value: 5.000000		Adress: 0061FF08
+Value: 6.000000		Adress: 0061FF0C
+Value: 7.000000		Adress: 0061FF10

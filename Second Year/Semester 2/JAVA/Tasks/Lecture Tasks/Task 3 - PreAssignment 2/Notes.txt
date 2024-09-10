@@ -1,0 +1,29 @@
+Q2
+Unknow abmeguety
+add constructor
+based on fanctionality
+based on paramaters
+
+Q3
+define and give an expample
+scobe of variable
+local - global - static
+
+
+Q4
+use
+- Random
+- use some of string methods like (upper, lower, equals, trim, length)
+
+Q5
+use the built in function
+
+
+Q7
+class is somehow blueprint 
+
+Task 2
+Q2
+
+
+

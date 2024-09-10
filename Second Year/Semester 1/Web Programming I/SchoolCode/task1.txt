@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <title>Task 1</title>
+</head>
+<body>
+    <h1>My skills</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+            JavaScript
+            <ul>
+                <li>ReactJS</li>
+                <li>
+                    Anguler
+                    <ol>
+                        <li value="4">V4</li>
+                        <li>V5</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Python</li>
+    </ul>
+</body>
+</html>

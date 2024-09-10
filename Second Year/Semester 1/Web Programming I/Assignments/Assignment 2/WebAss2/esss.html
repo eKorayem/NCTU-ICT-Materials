@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="report"></div>
+    <img id="img" src="">
+  </div>
+
+  <script>
+    fetch('https://reqres.in/api/users')
+    .then(res => {
+      if (!res.ok) {
+        throw new Error(`HTTP error! Status: ${res.status}`);
+      }
+      return res.json();
+    })
+    .then(data => {
+        console.log('API Response:', data);
+
+      const firstName = data.data[0].first_name;
+
+      document.getElementById('report').innerHTML = `<h2>${firstName}</h2>`;
+    })
+    .catch(error => {
+      document.getElementById('report').innerHTML =  `<h2>Error fetching</h2>`;
+    });
+  </script>
+</body>
+</html>

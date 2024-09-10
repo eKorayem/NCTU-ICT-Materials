@@ -1,0 +1,45 @@
+<CipherBoxLayout>:
+    orientation: "vertical"
+    input_text: input_text.text
+    output_text: output_text.text
+    key: key.text
+    substitution: substitution.text
+
+    TextInput:
+        id: input_text
+        hint_text: "Enter text to encrypt/decrypt"
+        multiline: False
+        size_hint_y: None
+        height: "40dp"
+
+    TextInput:
+        id: key
+        hint_text: "Enter key (number for Caesar, string for Vigenère)"
+        multiline: False
+        size_hint_y: None
+        height: "40dp"
+
+    TextInput:
+        id: substitution
+        hint_text: "Enter substitution alphabet (only for substitution cipher)"
+        multiline: False
+        size_hint_y: None
+        height: "40dp"
+
+    BoxLayout:
+        size_hint_y: None
+        height: "40dp"
+        Button:
+            text: "Encrypt (Vigenère)"
+            on_release: root.encrypt("vigenere")
+        Button:
+            text: "Decrypt (Vigenère)"
+            on_release: root.decrypt("vigenere")
+
+    BoxLayout:
+        size_hint_y: None
+        height: "40dp"
+        Button:
+            text: "Encrypt (Caesar)"
+            on_release: root.encrypt("caesar")
+        Button:

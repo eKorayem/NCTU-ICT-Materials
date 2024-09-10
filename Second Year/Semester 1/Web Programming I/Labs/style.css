@@ -1,0 +1,29 @@
+p{
+	border: 1px solid red;
+    outline: green dotted thick;
+}
+.foorm:checked{
+    color: red;
+}
+.foorm{
+    border: 5px;
+    border-width: 5px;
+    border-style: dashed dashed solid solid;
+    padding: 10px;
+    margin: 10px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    background-color: beige;
+    background-image: url("oX8FNgN.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    overflow: auto;
+    
+}
+
+blink {
+    color: #2d38be;
+    font-size: 15px;
+    font-weight: bold;
+}

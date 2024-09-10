@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|solutionrelative:Assignment_1\\Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Assignment_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|solutionrelative:Assignment_1\\Assignment_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|solutionrelative:Assignment_1\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|solutionrelative:Assignment_1\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3F97F94-BDAB-480D-AC75-36AC9EC9DCA9}|Assignment_1\\Assignment_1.vcxproj|solutionrelative:Assignment_1\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stack.h",
+              "DocumentMoniker": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Stack.h",
+              "RelativeDocumentMoniker": "Assignment_1\\Stack.h",
+              "ToolTip": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Stack.h",
+              "RelativeToolTip": "Assignment_1\\Stack.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-30T21:14:05.265Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stack.cpp",
+              "DocumentMoniker": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Stack.cpp",
+              "RelativeDocumentMoniker": "Assignment_1\\Stack.cpp",
+              "ToolTip": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Stack.cpp",
+              "RelativeToolTip": "Assignment_1\\Stack.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-03T22:29:02.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Queue.h",
+              "DocumentMoniker": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Queue.h",
+              "RelativeDocumentMoniker": "Assignment_1\\Queue.h",
+              "ToolTip": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Queue.h*",
+              "RelativeToolTip": "Assignment_1\\Queue.h*",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvxkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-28T14:35:52.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Queue.cpp",
+              "DocumentMoniker": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Queue.cpp",
+              "RelativeDocumentMoniker": "Assignment_1\\Queue.cpp",
+              "ToolTip": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Queue.cpp",
+              "RelativeToolTip": "Assignment_1\\Queue.cpp",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-03T22:08:05.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Assignment_1.cpp",
+              "DocumentMoniker": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Assignment_1.cpp",
+              "RelativeDocumentMoniker": "Assignment_1\\Assignment_1.cpp",
+              "ToolTip": "E:\\0School\\Second Year\\Semester 2\\Data Structure\\Tasks\\Assignments\\Assignment_1\\Assignment_1\\Assignment_1\\Assignment_1.cpp",
+              "RelativeToolTip": "Assignment_1\\Assignment_1.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-28T15:46:03.108Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

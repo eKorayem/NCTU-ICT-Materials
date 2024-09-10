@@ -1,0 +1,334 @@
+:root {
+    --color-bg: #F3F8FF;
+    --color-main: #F6F1F1;
+    --color-main-light: #5c5e6f;
+    --color-dark: #52009f;
+    --color-dark-medium: #f6ebd4;
+    --color-light: #F6F1F1;
+    --color-gray: black;
+    --color-light-gray: #323232;
+    --color-text: black;
+    --color-search: black;
+    --color-user: white;
+}
+.dark_mode {
+    --color-main: #71c6dd;
+    --color-main-light: #e1f6fb;
+    --color-dark: #3f4156;
+    --color-dark-medium: #51546e;
+    --color-dark-light: #696d97;
+    --color-light: #e5e5e5;
+    --color-gray: #8b8b8b;
+    --color-light-gray: #b2bdbd;
+    --color-bg: #2d2d39;
+    --color-text: #6eb1c4;
+    --color-search: white;
+    --color-user: #6eb1c4;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-bg);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-search);
+}
+
+.nav-bar {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--color-dark);
+}
+
+.logo {
+    color: var(--color-main);
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile {
+    color: var(--color-main);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-right: 12px;
+}
+
+.search {
+    margin-left: -290px;
+    background-color: var(--color-dark-medium);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    color: var(--color-search); 
+}
+
+.search input {
+    width: 225px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--color-search);
+}
+
+.search input::placeholder {
+    color: var(--color-gray);
+}
+
+.user {
+    display: block;
+    color: var(--color-gray);
+}
+
+.profile_ {
+    display: flex;
+    align-items: center;
+}
+
+
+.home_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 120rem;
+    width: 90%;
+    margin: auto;
+}
+
+.home_body>div:nth-child(1) {
+    flex-basis: 18%;
+    max-width: 22.5rem;
+}
+
+.home_body>div:nth-child(2) {
+    flex-basis: 50%;
+}
+
+.home_body>div:nth-child(3) {
+    flex-basis: 25%;
+}
+
+.room {
+    margin-bottom: 20px;
+    background-color: var(--color-dark);
+    border-radius: 15px;
+    padding: 30px;
+}
+.room_topic {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 2px;
+}
+.avatar img {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.avatar img:after {
+    width: 0.7rem;
+    height: 0.7rem;
+    bottom: 0px;
+    right: -6px;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid var(--color-dark);
+}
+
+.room_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room_author {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.room_content a {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color-light);
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.room_content a:hover {
+    opacity: 0.8;
+}
+
+.room_foter {
+    border-top: 1px solid var(--color-dark-medium);
+    padding-top: 15px;
+    display: flex;
+    gap: 20px;
+    direction: rtl;
+}
+
+.room_foter div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.room_foter div a {
+    padding: 0px 15px;
+    background-color: var(--color-dark-medium);
+    border-radius: 25rem;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.rooms_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: var(--color-main);
+    color: var(--color-dark);
+    display: flex;
+    transition: .3s;
+}
+
+.btn:hover {
+    opacity: 90%;
+}
+
+.topics_list li {
+    list-style: none;
+}
+
+.topics_list li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+    font-weight: 700;
+    color: var(--color-light-gray);
+    transition: 0.3s;
+}
+
+.topics_list li a:hover {
+    opacity: 0.8;;
+}
+
+.topics_list li a span {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dark-medium);
+    border-radius: 3px;
+}
+@keyframes transform {
+    from {
+        transform: translate(-300px,0);
+    }
+    to {
+        transform: translate(0,0);
+    }
+}
+
+.login2 {
+    margin-top: 30px;
+    margin-left: 450px;
+    width: 500px;
+    height: 500px;
+    background-color: var(--color-bg);
+    padding-left: 80px;
+    color: var(--color-light-gray);
+    border: #39394d solid 3px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Username {
+    border: var(--color-dark) solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: var(--color-bg); 
+    color: var(--color-main-light);
+    width: 300px;
+}
+.Password {
+    border: var(--color-dark) solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: var(--color-bg); 
+    color: var(--color-main-light);
+    width: 300px;
+}
+.login-button {
+    background-color: var(--color-dark);
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(30deg)
+    }
+}
+#dark:hover {
+    animation-name: rotate;
+    animation-duration: 0.6s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+.collection {
+    background-color: var(--color-dark);
+    position: relative;
+    top: 50px;
+    right: 50px;
+    padding: 12px;
+}
+.collection a {
+    color: white;
+}

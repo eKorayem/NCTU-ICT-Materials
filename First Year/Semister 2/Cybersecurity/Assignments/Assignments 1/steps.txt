@@ -1,0 +1,5 @@
+First : Understanding how to make a mobile app using python
+
+Second : What is ciezer
+Third : What is vigenier
+Forth : subistitution
